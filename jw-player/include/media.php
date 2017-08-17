@@ -22,7 +22,7 @@ function jwplayer_media_sync_form_html( $media ) {
 		$html .= '</p>';
 	} else {
 		$html .= '<label for="'.esc_attr( 'attachments['.$media->ID.'][jwplayer_media_sync]').'">';
-		$html .= '<input type="checkbox" value="sync" name="'.esc_attr( 'attachments['.$media->ID.'][jwplayer_media_sync]' ).' />';
+		$html .= '<input type="checkbox" value="sync" name="'.esc_attr( 'attachments['.$media->ID.'][jwplayer_media_sync]' ).'" />';
 		$html .= '&nbsp;&nbsp;Sync to JW Player';
 		$html .= '</label>';
 		$html .= '<p class="description">';
